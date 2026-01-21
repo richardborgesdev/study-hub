@@ -408,3 +408,307 @@ function twoSumOptimized(arr, target) {
 2. Compare it with alternative approaches
 3. Justify your choice based on the problem constraints
 4. Discuss trade-offs between time and space efficiency
+
+---
+
+# System Design
+
+## Overview
+
+In system design interviews, you'll discuss architecture, scalable solutions, reliability, and decision-making in complex scenarios. The goal is to demonstrate how you think, structure, and evolve a solution.
+
+**Key Point:** There's rarely one "right" answer. What matters is clarity, well-justified choices, and the ability to discuss trade-offs in depth.
+
+### Learning Resources
+- System Design Primer (GitHub)
+- NeetCode – System Design
+- High Scalability blog
+- Book: System Design Interview – Alex Xu
+- Course: InterviewReady – System Design
+
+---
+
+## Approach: Steps to Guide Your Response
+
+### 1. Understand the Problem
+- Align scope, users, and objectives with the interviewer
+- Ask clarifying questions about scale, consistency requirements, and constraints
+- Define functional and non-functional requirements
+
+### 2. Start High-Level
+- Think about the user journey: request → response
+- Sketch the main components and their interactions
+- Don't dive into details too early
+
+### 3. Identify Core Components
+- **Frontend**: Web, mobile, desktop
+- **API Gateway**: Routing, authentication, rate limiting
+- **Backend Services**: Business logic, microservices
+- **Database**: SQL, NoSQL, sharding strategy
+- **Cache**: Redis, Memcached, CDN
+- **Message Queue**: Asynchronous processing
+- **External Services**: Third-party APIs
+
+### 4. Detail Interactions
+- Protocols: HTTP, gRPC, WebSocket
+- Latency and throughput considerations
+- Scalability and failure handling
+- Synchronous vs. asynchronous flows
+
+### 5. Estimate Scale
+- Requests per second (RPS)
+- Payload sizes
+- Data volume and growth
+- Storage requirements
+
+### 6. Explore Alternatives
+- Queue vs. polling
+- Monolith vs. microservices
+- Synchronous vs. asynchronous processing
+- SQL vs. NoSQL
+
+### 7. Handle Failures
+- Retry mechanisms
+- Timeouts and circuit breakers
+- Fallback strategies
+- Message durability and ordering
+
+---
+
+## Key Concepts and Techniques
+
+### Load Balancing
+```
+Strategies:
+- Round-robin: Distribute equally across servers
+- Least connections: Route to least busy server
+- IP hash: Consistent routing based on client IP
+- Health checks: Remove failing servers from rotation
+```
+
+### Caching
+```js
+// Cache layers
+1. Client-side caching (browser)
+2. CDN caching (edge servers)
+3. Application caching (Redis, Memcached)
+4. Database caching (query cache)
+
+// Cache considerations
+- TTL (Time-To-Live): Balance freshness vs. hits
+- Cache stampede: Multiple requests for expired key
+- Cache warming: Pre-load frequently accessed data
+- Invalidation strategy: Ensure consistency
+```
+
+### Sharding & Partitioning
+```
+Strategies:
+1. Range-based: User ID 1-1000 → Shard 1, 1001-2000 → Shard 2
+2. Hash-based: hash(user_id) % num_shards
+3. Geographic: Users in US → Region 1, Europe → Region 2
+4. Directory-based: Lookup table for shard location
+
+Considerations:
+- Hot shards (uneven load distribution)
+- Resharding (adding/removing shards)
+- Cross-shard queries (complexity & latency)
+```
+
+### Message Queues
+```
+Use cases:
+- Kafka: High-throughput, event streaming
+- RabbitMQ: Reliable message delivery
+- SQS: AWS managed queue service
+- Purpose: Decouple services, handle bursts, async processing
+
+Questions to ask:
+- Order guarantee needed?
+- Exactly-once delivery?
+- Retention policy?
+- Failure handling (DLQ)?
+```
+
+### CAP Theorem
+```
+Choose 2 out of 3:
+- Consistency: All nodes see same data
+- Availability: System always responds
+- Partition tolerance: System works despite network splits
+
+Real-world: Most systems choose AP or CP
+- AP: Cache systems, social media (eventual consistency)
+- CP: Banking, financial systems (strong consistency)
+```
+
+### Scalability: Vertical vs. Horizontal
+```
+Vertical scaling (bigger machine):
+- Pros: Simple, no code changes
+- Cons: Limited by hardware, expensive, single point of failure
+
+Horizontal scaling (more machines):
+- Pros: Unlimited scale, distributed, redundancy
+- Cons: Complexity, distributed systems problems
+```
+
+### Resilience Patterns
+```js
+// Retry with exponential backoff
+async function retryWithBackoff(fn, maxRetries = 3) {
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (i === maxRetries - 1) throw err;
+      const delay = Math.pow(2, i) * 1000; // 1s, 2s, 4s
+      await new Promise(resolve => setTimeout(resolve, delay));
+    }
+  }
+}
+
+// Circuit breaker pattern
+class CircuitBreaker {
+  constructor(fn, threshold = 5, timeout = 60000) {
+    this.fn = fn;
+    this.failureCount = 0;
+    this.threshold = threshold;
+    this.timeout = timeout;
+    this.state = 'CLOSED'; // CLOSED, OPEN, HALF_OPEN
+  }
+
+  async execute(args) {
+    if (this.state === 'OPEN') {
+      throw new Error('Circuit breaker is OPEN');
+    }
+    try {
+      const result = await this.fn(...args);
+      this.onSuccess();
+      return result;
+    } catch (err) {
+      this.onFailure();
+      throw err;
+    }
+  }
+
+  onSuccess() {
+    this.failureCount = 0;
+    this.state = 'CLOSED';
+  }
+
+  onFailure() {
+    this.failureCount++;
+    if (this.failureCount >= this.threshold) {
+      this.state = 'OPEN';
+      setTimeout(() => { this.state = 'HALF_OPEN'; }, this.timeout);
+    }
+  }
+}
+```
+
+### Observability
+```
+Key components:
+1. Metrics: RPS, latency, error rate, CPU, memory
+2. Logs: Structured logging, correlation IDs
+3. Traces: Distributed tracing (Jaeger, Zipkin)
+4. Alerts: Notify on anomalies
+
+Tools:
+- Prometheus: Metrics collection
+- ELK Stack: Logs aggregation
+- Grafana: Visualization
+- Datadog, New Relic: All-in-one solutions
+```
+
+---
+
+## System Design Example: URL Shortener Service
+
+### Requirements Analysis
+**Functional:**
+- Create short URL from long URL
+- Redirect from short URL to long URL
+- Delete short URLs
+- List user's URLs
+
+**Non-functional:**
+- Scale to millions of users
+- 100K reads/sec, 10K writes/sec
+- Low latency redirects (<10ms)
+- High availability
+
+### High-Level Architecture
+```
+User → Load Balancer → API Servers → Cache (Redis) → Database (PostgreSQL)
+                                    ↓
+                            Message Queue (for analytics)
+                                    ↓
+                            Analytics Service
+```
+
+### Key Decisions
+
+**1. Database Choice: SQL (PostgreSQL)**
+- Need ACID properties
+- Simple relational schema
+- Data: user, short_url, long_url, created_at
+
+**2. Caching Strategy**
+- Cache in Redis: short_url → long_url
+- TTL: 24 hours
+- Cache-aside pattern: Check cache first, fallback to DB
+
+**3. Short URL Generation**
+```js
+// Base62 encoding (numbers + lowercase + uppercase = 62 chars)
+function generateShortId(num) {
+  const chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let result = '';
+  while (num > 0) {
+    result = chars[num % 62] + result;
+    num = Math.floor(num / 62);
+  }
+  return result || '0';
+}
+
+// Or use distributed ID generator (Snowflake ID)
+```
+
+**4. Scaling Considerations**
+- Horizontal scaling: Multiple API servers behind load balancer
+- Database replication: Primary-replica for read scaling
+- Sharding: Shard by user_id if needed
+
+**5. Failure Handling**
+```
+- Cache miss: Go to database
+- Database unavailable: Return error or cached fallback
+- API server down: Load balancer routes to healthy servers
+- Message queue down: Queue in local buffer, retry later
+```
+
+### Trade-offs Discussed
+- Strong consistency vs. high availability (eventual consistency for analytics)
+- Cache TTL: Shorter = fresher data but more DB hits
+- Sharding: Adds complexity for distributed scaling
+
+---
+
+## Interview Checklist
+
+Before your system design interview:
+
+- [ ] Understand the problem clearly
+- [ ] Define scope and non-functional requirements
+- [ ] Propose high-level architecture
+- [ ] Identify bottlenecks and limitations
+- [ ] Discuss caching strategies
+- [ ] Explain database design and scaling
+- [ ] Address failure scenarios
+- [ ] Estimate capacity (RPS, storage)
+- [ ] Discuss trade-offs in your choices
+- [ ] Be ready to go deeper on any component
+
+**💡 Pro Tip:** Practice explaining why you chose or discarded techniques in each scenario. Be ready to discuss trade-offs in depth.
