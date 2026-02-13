@@ -7,7 +7,14 @@ Descobri que queria trabalhar com computadores desde o primeiro curso de digita�
 
 ## Experience
 ### Sysfocus | https://www.linkedin.com/company/sysfocus-software-solutions/about/
-### Softexpert |
+1. estágio 2012 ?, softaware de controle industrial
+1. correção de chamados
+1. sql server, visual basic 6
+### Softexpert | 02/dez/2013 - 01/nov/2019
+1. estágio
+1. documentos
+1. processos e workflow
+1. auditoria
 ### Conta Azul |
 ### Codenation |
 
