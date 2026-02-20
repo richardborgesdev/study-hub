@@ -2,31 +2,31 @@
 ## Senior Frontend Engineer | Frontend Architect | Vue | React | Node | Flutter
 
 ## About
-Descobri que queria trabalhar com computadores desde o primeiro curso de digitação (1999) aos 8 anos de idade, movido pela curiosidade de como as coisas funcionam e pela fascinação tecnológica. Hoje formado em técnico de computadores pela Escola Técnica Tupy (2008), bacharel em Ciências da Computação pela UDESC (2013) e pós-graduado em tecnologias e aplicações web pelo SENAC (2018), continuo apaixonado pela área e sempre inspirado em encontrar novas formas de adquirir conhecimento.
+I discovered I wanted to work with computers since my first typing course (1999) at 8 years old, driven by curiosity about how things work and a fascination with technology. Today, with a degree as a computer technician from Tupy Technical School (2008), a bachelor's in Computer Science from UDESC (2013), and a postgraduate degree in web technologies and applications from SENAC (2018), I remain passionate about the field and always inspired to find new ways to acquire knowledge.
 
 
 ## Experience
 
 ### Sysfocus | https://www.linkedin.com/company/sysfocus-software-solutions/about/
-1. estágio 2012 ?, softaware de controle industrial
-1. correção de chamados
-1. sql server, visual basic 6
+1. Internship 2012?, industrial control software
+1. Ticket correction
+1. SQL Server, Visual Basic 6
 1. TODO: working time
 
-### Softexpert | 02/dez/2013 - 01/nov/2019
-1. estágio
-1. documentos
-1. processos e workflow
-1. auditoria
-1. TODO: changes links to english
+### Softexpert | Dec 02, 2013 - Nov 01, 2019
+1. Internship
+1. Documents
+1. Processes and workflow
+1. Audit
+1. TODO: change links to English
 
-Desenvolvimento dos produtos de gestão de documento (ECM), gestão e automatização de processos (BPM) e qualidade empresarial (EQM). Atuação durante 1 ano como líder técnico e scrum master.
+Development of document management (ECM), process management and automation (BPM), and enterprise quality (EQM) products. Acted for 1 year as a technical lead and scrum master.
 
-### Conta Azul | 04/nov/2019 - now
-Desenvolvimentos dos produtos Conta Azul Mais para contadores e antecipação de recebíveis. Organização das demandas de front-end da empresa (manter fórum ativo entre os front-ends, backlog de evolução técnica, sugestões de evolução de carreira)
+### Conta Azul | Nov 04, 2019 - present
+Development of Conta Azul Mais products for accountants and receivables financing. Organization of the company's front-end demands (maintaining an active forum among front-end developers, technical evolution backlog, career evolution suggestions).
 
-### Codenation | march 2020 - jun 2020 - 4 months
-Mentoria a participantes do AceleraDev, o programa de aceleração de devs e cientistas de dados realizado pela Codenation. As atividades desempenhadas estão associadas ao aprendizado de programação, incluindo acompanhamento e feedbacks aos participantes e suporte para dúvidas das pessoas mentoradas.
+### Codenation | March 2020 - June 2020 - 4 months
+Mentoring participants of AceleraDev, the acceleration program for developers and data scientists held by Codenation. The activities performed are associated with learning programming, including monitoring and providing feedback to participants and supporting the mentored individuals with their questions.
 
 ## Education
 
@@ -34,10 +34,10 @@ Mentoria a participantes do AceleraDev, o programa de aceleração de devs e cie
 1. TODO: description
 
 ### UDESC | 2009 - 2013
-1. TODO: decription
+1. TODO: description
 
 ### Senac | 2016 - 2018
-A especialização em Tecnologias e Inovações para Web tem como objetivo especializar profissionais para que sejam capazes de propor, gerenciar e implementar projetos de inovações conceituais ou tecnológicas, tendo os fundamentos web como plataforma. Propiciar formação diferenciada aos desenvolvedores para criarem aplicações interativas dentro de padrões mundiais que mantêm o equilíbrio entre a criação que beneficia as máquinas e as pessoas que irão utilizá-las. Formar uma sólida base tecnológica que dá suporte desde a criação de projetos até o comércio eletrônico para múltiplos dispositivos e instrumentalizar profissionais para a disseminação de conhecimentos especializados em ambientes corporativos e/ou acadêmicos.
+The specialization in Technologies and Innovations for the Web aims to specialize professionals to be able to propose, manage, and implement projects of conceptual or technological innovations, using web fundamentals as a platform. It provides differentiated training for developers to create interactive applications within global standards that maintain a balance between creation that benefits machines and the people who will use them. It forms a solid technological base that supports everything from project creation to e-commerce for multiple devices and equips professionals for the dissemination of specialized knowledge in corporate and/or academic environments.
 
 ## Skills
 1. TODO: review
