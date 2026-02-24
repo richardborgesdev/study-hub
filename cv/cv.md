@@ -26,9 +26,28 @@ Development of document management (ECM), process management and automation (BPM
 Development of Conta Azul Mais products for accountants and receivables financing. Organization of the company's front-end demands (maintaining an active forum among front-end developers, technical evolution backlog, career evolution suggestions).
 
 #### Mid-Level Frontend | Nov 4, 2019 - Sep 7, 2022
+1. factoring, ca-pro
+1. ca-mais, accountability
+
 #### Senior Frontend | Sep 7, 2022 - Oct 10, 2024
+1. ca-mais, accountability
+1. factoring, ca-pro
+1. frontend board, mentorship
+1. devex, stack, design-system
+
 #### Specialist Frontend | Oct 10, 2024 - Nov 1, 2025
+1. factoring, ca-pro
+1. finance integrity, backoffice
+1. frotend board, mentorship
+1. devex, stack, design-system
+1. frontend AI instructions
+
 #### Frontend Architect | Nov 1, 2025 - present
+1. frotend board, mentorship
+1. devex, stack, design-system
+1. frontend AI instructions
+1. frontend starters
+1. vue 2 to vue 3 migration
 
 ### Codenation | March 2020 - June 2020 - 4 months
 Mentoring participants of AceleraDev, the acceleration program for developers and data scientists held by Codenation. The activities performed are associated with learning programming, including monitoring and providing feedback to participants and supporting the mentored individuals with their questions.
