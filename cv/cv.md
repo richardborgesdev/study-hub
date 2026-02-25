@@ -8,15 +8,21 @@ I discovered I wanted to work with computers since my first typing course (1999)
 ## Experience
 
 ### Sysfocus | https://www.linkedin.com/company/sysfocus-software-solutions/about/
-1. Internship 2012?, industrial control software
+#### Internship | 2012?
+1. industrial control software
 1. Ticket correction
 1. SQL Server, Visual Basic 6
 1. TODO: working time
 
 ### Softexpert | Dec 02, 2013 - Nov 01, 2019
-1. Internship
+#### Internship
 1. Documents
+#### Junior
 1. Processes and workflow
+#### Mid-level
+1. Processes and workflow
+1. Audit
+#### Techlead
 1. Audit
 1. TODO: change links to English
 
