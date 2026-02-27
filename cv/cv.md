@@ -10,20 +10,24 @@ I discovered I wanted to work with computers since my first typing course (1999)
 ### Sysfocus | https://www.linkedin.com/company/sysfocus-software-solutions/about/
 #### Internship | 2012?
 1. industrial control software
-1. Ticket correction
-1. SQL Server, Visual Basic 6
+1. Ticket correction, Support, Web Pages
+1. SQL Server, Visual Basic 6, Html, js, css
 1. TODO: working time
 
 ### Softexpert | Dec 02, 2013 - Nov 01, 2019
 #### Internship
-1. Documents
+1. Documents: develop forms, reports, data-grids
+1. php, java, html, js, css, sql server, postgree, oracle
 #### Junior
-1. Processes and workflow
+1. Processes and workflow: create a tool in javascript canvas api to draw business process management process, migrating from adobe flash
+1. php, java, html, js, css, sql server, postgree, oracle
 #### Mid-level
-1. Processes and workflow
-1. Audit
+1. Processes and workflow: create a tool in javascript canvas api to draw analysis problems (5 whys, ishikawa), migrating from adobe flash
+1. Audit: develop risk analysis audit system
+1. php, java, html, js, css, sql server, postgree, oracle
 #### Techlead
-1. Audit
+1. Audit: manage the team, backlog and architect the solutions
+1. php, java, html, js, css, , sql server, postgree, oracle, react, scrum master
 1. TODO: change links to English
 
 Development of document management (ECM), process management and automation (BPM), and enterprise quality (EQM) products. Acted for 1 year as a technical lead and scrum master.
