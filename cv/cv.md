@@ -15,17 +15,17 @@ I discovered I wanted to work with computers since my first typing course (1999)
 1. TODO: working time
 
 ### Softexpert | Dec 02, 2013 - Nov 01, 2019
-#### Internship
+#### Internship Dec 2013 - Nov 2014
 1. Documents: develop forms, reports, data-grids
 1. php, java, html, js, css, sql server, postgree, oracle
-#### Junior
+#### Junior Nov 2014 - Nov 2016
 1. Processes and workflow: create a tool in javascript canvas api to draw business process management process, migrating from adobe flash
 1. php, java, html, js, css, sql server, postgree, oracle
-#### Mid-level
+#### Mid-level Nov 2016 - Nov 2018
 1. Processes and workflow: create a tool in javascript canvas api to draw analysis problems (5 whys, ishikawa), migrating from adobe flash
 1. Audit: develop risk analysis audit system
 1. php, java, html, js, css, sql server, postgree, oracle
-#### Techlead
+#### Techlead Nov 2018 - Nov 2019
 1. Audit: manage the team, backlog and architect the solutions
 1. php, java, html, js, css, , sql server, postgree, oracle, react, scrum master
 1. TODO: change links to English
