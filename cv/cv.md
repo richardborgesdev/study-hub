@@ -36,14 +36,14 @@ Development of document management (ECM), process management and automation (BPM
 Development of Conta Azul Mais products for accountants and receivables financing. Organization of the company's front-end demands (maintaining an active forum among front-end developers, technical evolution backlog, career evolution suggestions).
 
 #### Mid-Level Frontend | Nov 4, 2019 - Sep 7, 2022
-1. factoring, ca-pro
-1. ca-mais, accountability
+1. factoring: develop the workflow to add docs to validate client credit score, ca-pro
+1. ca-mais, accountability: develop dashboards, client management, user management, notifications and authentication
 
 #### Senior Frontend | Sep 7, 2022 - Oct 10, 2024
-1. ca-mais, accountability
-1. factoring, ca-pro
-1. frontend board, mentorship
-1. devex, stack, design-system
+1. ca-mais, accountability: develop dashboards, client management, user management, notifications and authentication
+1. factoring, ca-pro: develop the second version of the product
+1. frontend board, mentorship: discuss the frontned future in the company, actions plans, onboarding and stack evolution
+1. devex, stack, design-system: create processes to increase frontends productivity and engagement
 
 #### Specialist Frontend | Oct 10, 2024 - Nov 1, 2025
 1. factoring, ca-pro
