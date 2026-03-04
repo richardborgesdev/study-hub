@@ -46,18 +46,18 @@ Development of Conta Azul Mais products for accountants and receivables financin
 1. devex, stack, design-system: create processes to increase frontends productivity and engagement
 
 #### Specialist Frontend | Oct 10, 2024 - Nov 1, 2025
-1. factoring, ca-pro
-1. finance integrity, backoffice
-1. frotend board, mentorship
-1. devex, stack, design-system
-1. frontend AI instructions
+1. factoring, ca-pro: develop the second version of the product
+1. finance integrity, backoffice: features in the backoffice to prevent fraud actions in bancking processes
+1. frotend board, mentorship: organize frontend demands from the company to discuss solutions and future directions
+1. devex, stack, design-system: keep technology updates to prevent vulnerabilities and end of life problems
+1. frontend AI instructions: create instructions in the frontend projects to improve AI results
 
 #### Frontend Architect | Nov 1, 2025 - present
-1. frotend board, mentorship
-1. devex, stack, design-system
-1. frontend AI instructions
-1. frontend starters
-1. vue 2 to vue 3 migration
+1. frotend board, mentorship: organize frontend demands from the company to discuss solutions and future directions
+1. devex, stack, design-system: keep technology updates to prevent vulnerabilities and end of life problems
+1. frontend AI instructions: create instructions in the frontend projects to improve AI results
+1. frontend starters: centralize common features in the entire company frontend end to improve reusability and governance
+1. vue 2 to vue 3 migration: lead the project to update the entire company frontend to the latest vue 3 version
 
 ### Codenation | March 2020 - June 2020 - 4 months
 Mentoring participants of AceleraDev, the acceleration program for developers and data scientists held by Codenation. The activities performed are associated with learning programming, including monitoring and providing feedback to participants and supporting the mentored individuals with their questions.
