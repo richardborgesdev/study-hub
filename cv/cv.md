@@ -8,7 +8,7 @@ I discovered I wanted to work with computers since my first typing course (1999)
 ## Experience
 
 ### Sysfocus | https://www.linkedin.com/company/sysfocus-software-solutions/about/
-#### Internship | 2012?
+#### Internship | july 2012 - july 2013
 1. industrial control software
 1. Ticket correction, Support, Web Pages
 1. SQL Server, Visual Basic 6, Html, js, css
