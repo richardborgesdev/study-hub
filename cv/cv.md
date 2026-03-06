@@ -66,15 +66,15 @@ Mentoring participants of AceleraDev, the acceleration program for developers an
 ## Education
 
 ### Unisociesc | Computer Technician | 2007 - 2008
-Completed a Computer Technician program with focus on hardware, software, networking, and technical support.
+A computer technician is a versatile professional responsible for a wide range of tasks, from everyday troubleshooting to more complex infrastructure issues. Their duties include hardware assembly and maintenance, software installation and configuration, network setup, and providing technical support. The role demands logical thinking, continuous learning to keep up with technological changes, and strong problem-solving skills to handle complex issues. They can work in various settings, including companies, schools, or as service providers.
 <!-- TODO: Add 1-2 sentences about key learnings or highlights from this program -->
 
 ### UDESC | Bachelor's degree in Computer Science | 2009 - 2013
-Earned a B.Sc. in Computer Science with a strong foundation in algorithms, data structures, software engineering, and system design.
+The Bachelor's degree in Computer Science prepares professionals to contribute to the scientific and technological advancement of the field. The program provides students with state-of-the-art knowledge in computer science, enabling them to develop innovative software solutions for complex problems. Graduates are equipped for both the software industry and academic careers, with a strong foundation in systematic and methodological approaches to designing and validating complex computer systems.
 <!-- TODO: Add 1-2 sentences about key projects or academic highlights -->
 
 ### Senac | Postgraduate Specialization in Web Technologies and Innovations | 2016 - 2018
-Specialized in web technologies and innovation-driven development, focusing on interactive application design and modern web standards.
+Postgraduate Specialization in Web Technologies and Innovations aims to specialize professionals to be able to propose, manage, and implement projects of conceptual or technological innovations, using web fundamentals as a platform. It provides differentiated training for developers to create interactive applications within global standards that maintain a balance between creation that benefits machines and the people who will use them. It forms a solid technological base that supports everything from project creation to e-commerce for multiple devices and equips professionals for the dissemination of specialized knowledge in corporate and/or academic environments.
 <!-- TODO: Add 1-2 sentences about a key project or specialization topic -->
 
 ## Skills
