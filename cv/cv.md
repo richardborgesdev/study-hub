@@ -8,56 +8,57 @@ I discovered I wanted to work with computers since my first typing course (1999)
 ## Experience
 
 ### Sysfocus | https://www.linkedin.com/company/sysfocus-software-solutions/about/
-#### Internship | july 2012 - july 2013
-1. industrial control software
-1. Ticket correction, Support, Web Pages
-1. SQL Server, Visual Basic 6, Html, js, css
-1. TODO: working time
+#### Internship | July 2012 - July 2013 (1 year)
+1. Maintained and supported industrial control software
+1. Resolved tickets, provided technical support, and developed internal web pages
+1. **Tech:** SQL Server, Visual Basic 6, HTML, JavaScript, CSS
 
-### Softexpert | Dec 02, 2013 - Nov 01, 2019
-#### Internship Dec 2013 - Nov 2014
-1. Documents: develop forms, reports, data-grids
-1. php, java, html, js, css, sql server, postgree, oracle
-#### Junior Nov 2014 - Nov 2016
-1. Processes and workflow: create a tool in javascript canvas api to draw business process management process, migrating from adobe flash
-1. php, java, html, js, css, sql server, postgree, oracle
-#### Mid-level Nov 2016 - Nov 2018
-1. Processes and workflow: create a tool in javascript canvas api to draw analysis problems (5 whys, ishikawa), migrating from adobe flash
-1. Audit: develop risk analysis audit system
-1. php, java, html, js, css, sql server, postgree, oracle
-#### Techlead Nov 2018 - Nov 2019
-1. Audit: manage the team, backlog and architect the solutions
-1. php, java, html, js, css, , sql server, postgree, oracle, react, scrum master
-1. TODO: change links to English
+### Softexpert | Dec 2013 - Nov 2019
+**Tech:** PHP, Java, JavaScript, HTML, CSS, SQL Server, PostgreSQL, Oracle, React
 
+#### Internship | Dec 2013 - Nov 2014
+1. Developed forms, reports, and data-grids for the document management module (ECM)
+
+#### Junior | Nov 2014 - Nov 2016
+1. Built a JavaScript Canvas API tool for drawing Business Process Management (BPM) diagrams, replacing a legacy Adobe Flash solution
+
+#### Mid-level | Nov 2016 - Nov 2018
+1. Extended the Canvas API diagramming tool to support root-cause analysis methods (5 Whys, Ishikawa), replacing Adobe Flash
+1. Developed a risk analysis and audit system
+
+#### Tech Lead | Nov 2018 - Nov 2019
+1. Led the audit team, managed the backlog, and architected solutions as Tech Lead and Scrum Master
+
+<!-- TODO: Add links or references to Softexpert's ECM, BPM, and EQM products in English -->
 Development of document management (ECM), process management and automation (BPM), and enterprise quality (EQM) products. Acted for 1 year as a technical lead and scrum master.
 
 ### Conta Azul | Nov 04, 2019 - present
 Development of Conta Azul Mais products for accountants and receivables financing. Organization of the company's front-end demands (maintaining an active forum among front-end developers, technical evolution backlog, career evolution suggestions).
 
 #### Mid-Level Frontend | Nov 4, 2019 - Sep 7, 2022
-1. factoring: develop the workflow to add docs to validate client credit score, ca-pro
-1. ca-mais, accountability: develop dashboards, client management, user management, notifications and authentication
+1. factoring (ca-pro): Developed the document workflow to validate client credit scores
+1. ca-mais, accountability: Developed dashboards, client management, user management, notifications, and authentication features
 
 #### Senior Frontend | Sep 7, 2022 - Oct 10, 2024
-1. ca-mais, accountability: develop dashboards, client management, user management, notifications and authentication
-1. factoring, ca-pro: develop the second version of the product
-1. frontend board, mentorship: discuss the frontned future in the company, actions plans, onboarding and stack evolution
-1. devex, stack, design-system: create processes to increase frontends productivity and engagement
+1. ca-mais, accountability: Developed dashboards, client management, user management, notifications, and authentication features
+1. factoring, ca-pro: Delivered the second version of the factoring product
+1. frontend board, mentorship: Drove discussions about the frontend roadmap, action plans, onboarding, and stack evolution
+1. devex, stack, design-system: Established processes to increase frontend developer productivity and engagement
+<!-- TODO: Quantify impact (e.g., number of developers impacted, performance gains, adoption metrics) -->
 
 #### Specialist Frontend | Oct 10, 2024 - Nov 1, 2025
-1. factoring, ca-pro: develop the second version of the product
-1. finance integrity, backoffice: features in the backoffice to prevent fraud actions in bancking processes
-1. frotend board, mentorship: organize frontend demands from the company to discuss solutions and future directions
-1. devex, stack, design-system: keep technology updates to prevent vulnerabilities and end of life problems
-1. frontend AI instructions: create instructions in the frontend projects to improve AI results
+1. factoring, ca-pro: Delivered the second version of the factoring product
+1. finance integrity, backoffice: Implemented backoffice features to prevent fraud in banking processes
+1. frontend board, mentorship: Organized frontend demands across the company to align solutions and future directions
+1. devex, stack, design-system: Maintained technology updates to prevent vulnerabilities and end-of-life issues
+1. frontend AI instructions: Authored AI coding instructions for frontend projects to improve AI-assisted development results
 
 #### Frontend Architect | Nov 1, 2025 - present
-1. frotend board, mentorship: organize frontend demands from the company to discuss solutions and future directions
-1. devex, stack, design-system: keep technology updates to prevent vulnerabilities and end of life problems
-1. frontend AI instructions: create instructions in the frontend projects to improve AI results
-1. frontend starters: centralize common features in the entire company frontend end to improve reusability and governance
-1. vue 2 to vue 3 migration: lead the project to update the entire company frontend to the latest vue 3 version
+1. frontend board, mentorship: Organized frontend demands across the company to align solutions and future directions
+1. devex, stack, design-system: Maintained technology updates to prevent vulnerabilities and end-of-life issues
+1. frontend AI instructions: Authored AI coding instructions for frontend projects to improve AI-assisted development results
+1. frontend starters: Centralized common features across all company frontend projects to improve reusability and governance
+1. vue 2 to vue 3 migration: Led the company-wide migration from Vue 2 to Vue 3
 
 ### Codenation | March 2020 - June 2020 - 4 months
 Mentoring participants of AceleraDev, the acceleration program for developers and data scientists held by Codenation. The activities performed are associated with learning programming, including monitoring and providing feedback to participants and supporting the mentored individuals with their questions.
@@ -66,13 +67,37 @@ Mentoring participants of AceleraDev, the acceleration program for developers an
 
 ### Unisociesc | Computer Technician | 2007 - 2008
 A computer technician is a versatile professional responsible for a wide range of tasks, from everyday troubleshooting to more complex infrastructure issues. Their duties include hardware assembly and maintenance, software installation and configuration, network setup, and providing technical support. The role demands logical thinking, continuous learning to keep up with technological changes, and strong problem-solving skills to handle complex issues. They can work in various settings, including companies, schools, or as service providers.
+<!-- TODO: Add 1-2 sentences about key learnings or highlights from this program -->
 
 ### UDESC | Bachelor's degree in Computer Science | 2009 - 2013
 The Bachelor's degree in Computer Science prepares professionals to contribute to the scientific and technological advancement of the field. The program provides students with state-of-the-art knowledge in computer science, enabling them to develop innovative software solutions for complex problems. Graduates are equipped for both the software industry and academic careers, with a strong foundation in systematic and methodological approaches to designing and validating complex computer systems.
-
+<!-- TODO: Add 1-2 sentences about key projects or academic highlights -->
 
 ### Senac | Postgraduate Specialization in Web Technologies and Innovations | 2016 - 2018
 Postgraduate Specialization in Web Technologies and Innovations aims to specialize professionals to be able to propose, manage, and implement projects of conceptual or technological innovations, using web fundamentals as a platform. It provides differentiated training for developers to create interactive applications within global standards that maintain a balance between creation that benefits machines and the people who will use them. It forms a solid technological base that supports everything from project creation to e-commerce for multiple devices and equips professionals for the dissemination of specialized knowledge in corporate and/or academic environments.
+<!-- TODO: Add 1-2 sentences about a key project or specialization topic -->
 
 ## Skills
-1. TODO: review
+
+### Languages & Frameworks
+- JavaScript / TypeScript
+- Vue.js (2 & 3), React
+- Node.js
+- Flutter / Dart
+- PHP, Java
+- HTML, CSS
+
+### Tools & Practices
+- Canvas API, Design Systems
+- SQL Server, PostgreSQL, Oracle
+- Scrum / Agile
+- Frontend Architecture, Developer Experience (DevEx)
+- Technical Leadership & Mentorship
+- AI-assisted development workflows
+
+<!-- TODO: Add any additional skills, certifications, or tools (e.g., testing frameworks, CI/CD, cloud platforms) -->
+
+## Projects
+<!-- TODO: Add 1-2 significant personal or professional projects. Include: project name, your role, technologies used, and outcome. -->
+
+<!-- TODO: Consider exporting this CV to PDF format for job applications -->
