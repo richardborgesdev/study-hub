@@ -12,3 +12,9 @@
     1. use case: use terraform files to view infrastructure (github integration)
 
 ### Getting hands on
+1. Claude setup
+1. Project setup
+1. Adding context
+    1. /init > CLAUDE.md files (project, local, machine)
+    1. using @
+    1.
