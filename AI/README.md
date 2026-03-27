@@ -17,4 +17,7 @@
 1. Adding context
     1. /init > CLAUDE.md files (project, local, machine)
     1. using @
-    1.
+    1. screenshot to prompt
+    1. plan mode
+    1. thinking modes
+    1. git assistant
