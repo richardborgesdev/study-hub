@@ -21,3 +21,9 @@
     1. plan mode
     1. thinking modes
     1. git assistant
+1. Custom commands
+    1. \# to add memory
+    1. @ to reference a file
+    1. escape + escape to access previous conversations
+    1. compact to sumarize context
+    1. clear to start free up of context
