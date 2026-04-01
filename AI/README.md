@@ -27,3 +27,11 @@
     1. escape + escape to access previous conversations
     1. compact to sumarize context
     1. clear to start free up of context
+    1. custom \/ commands .claude/commands/audit.md
+        1.  can receive arguments with $
+1. MCP servers with claude code
+    1. claude mcp add playwright
+    1. permissions on mcp
+1. Github
+    1. /install-git-hub-app
+    1. configure api
