@@ -35,3 +35,8 @@
 1. Github
     1. /install-git-hub-app
     1. configure api
+
+### Hooks nad SDK
+1. /hooks to execute scripts in the project
+    1. PreToolUse, PostToolUse
+    1. matcher, type, command
