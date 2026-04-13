@@ -40,3 +40,6 @@
 1. /hooks to execute scripts in the project
     1. PreToolUse, PostToolUse
     1. matcher, type, command
+1. Command feedback to Claude 0 - ok, 2 - tool blocked
+1. matcher: Read|Grep, command: node ...
+1.
