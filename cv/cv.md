@@ -1,5 +1,7 @@
-# Richard Borges
+# Richard Borges (EN)
 ## Senior Frontend Engineer | Frontend Architect | Vue | React | Node | Flutter
+
+> See also: [Versão em Português](cv-pt.md)
 
 ## About
 I discovered I wanted to work with computers since my first typing course (1999) at 8 years old, driven by curiosity about how things work and a fascination with technology. Today, with a degree as a computer technician from Tupy Technical School (2008), a bachelor's in Computer Science from UDESC (2013), and a postgraduate degree in web technologies and applications from SENAC (2018), I remain passionate about the field and always inspired to find new ways to acquire knowledge.
