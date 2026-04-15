@@ -42,4 +42,7 @@
     1. matcher, type, command
 1. Command feedback to Claude 0 - ok, 2 - tool blocked
 1. matcher: Read|Grep, command: node ...
-1.
+1. security is important here use envs in the hooks instead of sensive information
+1. useful hook
+    1. create schema
+    1. query hook
