@@ -46,3 +46,18 @@
 1. useful hook
     1. create schema
     1. query hook
+    1. notification
+    1. stop
+1. Claude Code SDK
+    1. runs Claude Code programmatically
+    ```typescript
+    import { query } from "@anthropic-ai/claude-code";
+
+    const prompt = "Look for duplicate queries in the ./src/queries dir";
+
+    for await (const message of query({
+      prompt,
+    })) {
+      console.log(JSON.stringify(message, null, 2));
+    }
+    ```
