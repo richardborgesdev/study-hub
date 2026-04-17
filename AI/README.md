@@ -61,3 +61,6 @@
       console.log(JSON.stringify(message, null, 2));
     }
     ```
+
+### Certificate
+![claude code in action certificate](https://cc.sj-cdn.net/certificate/3n2veylcj0hl/certificate-oz8zvexkybod-1776429938.jpg?Expires=1776433642&Signature=i6cuWW72TDsQNO1HSiQChqvF-LqClVFBHZ4po44szxMh4nSEWeX8l8fRWEwKDhVqgI6DNi83kMqHot-~9zzi3uwEx0C5JDegwf16imjJ1kwrJrchvqJBg7OnUH~E602Kk2j1eKYNHfVddcRXcVEUVvxmPiHTXOrLmFcYyTjvjLfoKAVmLaMi5Ahn7mK~~HPcff41wrYj3S0rDMd1ViMR-6aR9vmupdhVHKkXwlppqjNQMJSCWpicC5IWuoiZgnC4K1gjHpiUss2pmmlYcJHgJ7u3IRTeNZ7DhuapVP-LbIkbhK~OXx8NaqjjZHyC~RNSGYLphN1-cwTn3Q0gCjUOXg__&Key-Pair-Id=APKAI3B7HFD2VYJQK4MQ)
