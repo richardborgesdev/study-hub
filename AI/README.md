@@ -1,5 +1,19 @@
 # AI
 
+## Claude Code 101
+
+# What is claue code?
+1. agentic tool
+1. access resources
+1. context window (working memory)
+1. permissions
+1. agentic loop
+1. compacting context
+
+### Your first prompt
+1.
+
+
 ## Claude Code Course
 [[course link]](https://anthropic.skilljar.com/claude-code-in-action)
 
