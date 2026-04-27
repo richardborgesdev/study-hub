@@ -11,8 +11,14 @@
 1. compacting context
 
 ### Your first prompt
-1.
+1. installing claude code
+    1. vs code extension
+1. claude desktop
+1. web
+1. auto-accept, approval, plan-mode
 
+### Daily workflows
+1.
 
 ## Claude Code Course
 [[course link]](https://anthropic.skilljar.com/claude-code-in-action)
