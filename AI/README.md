@@ -18,7 +18,11 @@
 1. auto-accept, approval, plan-mode
 
 ### Daily workflows
-1.
+1. explore > plan > code > commit
+1. claude code chrome extension
+1. context window (compacting, /compact, /clear, /context)
+1. removing bias
+1. skills are better than mcps
 
 ## Claude Code Course
 [[course link]](https://anthropic.skilljar.com/claude-code-in-action)
