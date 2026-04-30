@@ -7,6 +7,9 @@ Curso da Udemy: [Contabilidade do Zero a Profissional - ESSENCIAL](https://www.u
 - **Duração total:** 12h 8m
 - **Seções:** 13 | **Aulas:** 76
 
+## Certificado
+![certificado-contabilidade-curso-1](../certificates/assets/certificado-contabilidade-curso-1.jpg)
+
 ## Conteúdo
 
 ### 1. Começando
