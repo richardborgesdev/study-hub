@@ -23,6 +23,13 @@
 1. context window (compacting, /compact, /clear, /context)
 1. removing bias
 1. skills are better than mcps
+1. code reviews
+
+### Customizing Claude Code
+1. the claude.md file
+    1. levels (user, project)
+    1. add topics as memoires
+    1. keep it compact
 
 ## Claude Code Course
 [[course link]](https://anthropic.skilljar.com/claude-code-in-action)
