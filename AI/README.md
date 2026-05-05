@@ -30,6 +30,18 @@
     1. levels (user, project)
     1. add topics as memoires
     1. keep it compact
+1. subagents
+    1. main context window x separete context window
+    1. create subagents
+1. skills
+    1. how todo something once
+    1. scripts, instructions
+    1. personal skills, project
+    1. loaded on demand
+    1. specialized context
+    1. repeated tasks
+1. MCP
+    1.
 
 ## Claude Code Course
 [[course link]](https://anthropic.skilljar.com/claude-code-in-action)
