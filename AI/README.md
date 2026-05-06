@@ -41,7 +41,15 @@
     1. specialized context
     1. repeated tasks
 1. MCP
-    1.
+    1. external content
+    1. external actions
+    1. claude mcp add
+    1. scopping (local, user, project)
+1. Hooks
+    1. deterministic
+    1. run scripts
+    1. formatting
+    1. submit, pre, post, notification, stop
 
 ## Claude Code Course
 [[course link]](https://anthropic.skilljar.com/claude-code-in-action)
