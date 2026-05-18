@@ -2,7 +2,7 @@
 
 ## Workflows
 
-### Plan the product
+### Spec a Product Before AI Builds It
 1. Why planning beats vibe coding
     1. Spec development + example reference
 1. Turn a vague idea into a structured spec
@@ -10,3 +10,17 @@
     1. add supporting docs (files, examples, references)
     1. source of truth
 1. Shaping the Specification
+1. Give AI Technical Constraints from Day One
+    1. stack definition
+1. Tell AI what its not allowed to build
+1. Use AI Mockups to Expose Gaps in Your Spec
+1. Have AI Poke Holes in Your Plan
+1. What Might We Have Missed?
+1. From Spec to Features
+    1. https://github.com/unlearndev/skills/tree/main/skills
+    1. https://unlearn-specaudit.on-forge.com/
+1. Scaffolding the Boilerplate
+    ```text
+    Generate a Claude Code prompt to create an overall app layout for our project, including logo (text based), menu items, new suggestion button, and main slot content area. This should be design based only and not functional yet. We're scaffolding our boilerplate.
+    ```
+### Design a Feature AI Can Execute Without Guessing
