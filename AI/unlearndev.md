@@ -24,3 +24,23 @@
     Generate a Claude Code prompt to create an overall app layout for our project, including logo (text based), menu items, new suggestion button, and main slot content area. This should be design based only and not functional yet. We're scaffolding our boilerplate.
     ```
 ### Design a Feature AI Can Execute Without Guessing
+1. Give every feature its own spec
+    ```markdown
+    Extract the feature [feature] from features.md into its own markdown document, feature-[FEATURE_NAME].md.
+    Instructions:
+    - Preserve the original intent of the feature
+    - Pull in any relevant requirements, constraints, assumptions, dependencies, edge cases, and related notes from elsewhere in features.md or spec.md
+    - Exclude unrelated features or implementation details that do not directly support this feature
+    - Rewrite the extracted feature into a clean, structured spec that is easier to plan in detail
+    Output format:
+    # [Feature Name]
+    ## Summary
+    A short plain-English summary of the feature and its purpose.
+    ## Goals
+    Clear outcomes this feature should achieve.
+    ## Requirements
+    Functional requirements only for this feature.
+    Do not start designing the solution yet
+    Do not propose any low level technical decisions
+    ```
+1. Lock In Technical Decisions Before AI Makes Them for You
