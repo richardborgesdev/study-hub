@@ -44,3 +44,8 @@
     Do not propose any low level technical decisions
     ```
 1. Lock In Technical Decisions Before AI Makes Them for You
+1. Choosing What's Out of Scope
+1. Break the Feature into Steps You Can Review
+1. Preview How AI Will Build Each Step
+1. Why Add Tests Before Features?
+1. Write Your Test Plan Before the Code
