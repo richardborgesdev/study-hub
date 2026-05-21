@@ -49,3 +49,8 @@
 1. Preview How AI Will Build Each Step
 1. Why Add Tests Before Features?
 1. Write Your Test Plan Before the Code
+
+### Build Featurse with an AI Agent
+1. Guardrails Before AI Generated Code
+    1. lint, static analysis, testing framework
+1. Navigating Your AI Agent
