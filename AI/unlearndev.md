@@ -54,3 +54,8 @@
 1. Guardrails Before AI Generated Code
     1. lint, static analysis, testing framework
 1. Navigating Your AI Agent
+    1. permissions
+    1. plan mode
+    1. context
+    1. targeted file selection
+    1. model and effort selection
