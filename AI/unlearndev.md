@@ -59,3 +59,10 @@
     1. context
     1. targeted file selection
     1. model and effort selection
+1. Start with AGENTS.md
+    1. coding standards
+    1. development philosophy
+    1. preferred tools and packages
+    1. the project stack
+    1. https://github.com/unlearndev/agent-starters
+1. Implementing Tests Before AI Generated Code
