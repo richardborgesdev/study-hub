@@ -66,3 +66,5 @@
     1. the project stack
     1. https://github.com/unlearndev/agent-starters
 1. Implementing Tests Before AI Generated Code
+    1. TDD
+1. Using Hooks as Part of Our Workflow
