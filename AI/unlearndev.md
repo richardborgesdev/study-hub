@@ -68,3 +68,8 @@
 1. Implementing Tests Before AI Generated Code
     1. TDD
 1. Using Hooks as Part of Our Workflow
+    1. instructions in AGENTS.md to define the expected checks
+    1. project-level hooks to run those checks after changes are made
+1. Reviewing and Refining Agent Decisions
+    1. Update defined rules when getting errors during generation
+1. Rapid Review and Refine Cycle
