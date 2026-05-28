@@ -71,5 +71,8 @@
     1. instructions in AGENTS.md to define the expected checks
     1. project-level hooks to run those checks after changes are made
 1. Reviewing and Refining Agent Decisions
-    1. Update defined rules when getting errors during generation
+    1. update defined rules when getting errors during generation
 1. Rapid Review and Refine Cycle
+    1. fix and add rules to AGENTS.md (conventions)
+1. Planning Inside Your Agent
+    1.
