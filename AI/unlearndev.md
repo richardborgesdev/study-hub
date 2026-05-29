@@ -75,4 +75,8 @@
 1. Rapid Review and Refine Cycle
     1. fix and add rules to AGENTS.md (conventions)
 1. Planning Inside Your Agent
-    1.
+    1. Removing anything out of scope
+    1. Clarifying what vague steps actually mean
+    1. Simplifying the UI
+    1. Catching scope creep before it turns into extra work
+1. Small, Focused Branches
