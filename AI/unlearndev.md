@@ -80,3 +80,11 @@
     1. Simplifying the UI
     1. Catching scope creep before it turns into extra work
 1. Small, Focused Branches
+    1. Small changes for easy review
+    1. Release PR idea
+1. Picking up Where You Left Off
+    1. Create plan based on PR breaks, save the plan
+    1. Create checklists
+    1. Create other types of status that help the plan execution
+    1. Agent should be able to continue the plan without the previous context
+1. Local Code Reviews Without Humans
