@@ -88,3 +88,7 @@
     1. Create other types of status that help the plan execution
     1. Agent should be able to continue the plan without the previous context
 1. Local Code Reviews Without Humans
+    1. Skill to review code
+1. Using Checklists
+    1. https://github.com/unlearndev/skills
+    1. Review skill should create a backlog of fixes
