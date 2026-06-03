@@ -92,3 +92,12 @@
 1. Using Checklists
     1. https://github.com/unlearndev/skills
     1. Review skill should create a backlog of fixes
+
+### Reviewing AI Written Code
+1. Why AI Code Fails (and Where to Always Look First)
+    1. Error handling
+    1. Input boundaries
+    1. External or API calls
+    1. State mutations
+    1. Assumed dependencies
+1. Structure a Code Review So Nothing Slips Through
