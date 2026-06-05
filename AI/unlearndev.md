@@ -101,4 +101,3 @@
     1. State mutations
     1. Assumed dependencies
 1. Structure a Code Review So Nothing Slips Through
-    1. test
