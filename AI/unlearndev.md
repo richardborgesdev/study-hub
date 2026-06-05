@@ -101,3 +101,9 @@
     1. State mutations
     1. Assumed dependencies
 1. Structure a Code Review So Nothing Slips Through
+    1. Types and interfaces first
+    1. Data flow second
+    1. Business logic third
+    1. Edge cases last
+    1. method: Claim -> Verify -> Trace
+1. Break Code Before Users Do
