@@ -107,3 +107,12 @@
     1. Edge cases last
     1. method: Claim -> Verify -> Trace
 1. Break Code Before Users Do
+    1. ZOMBIES heuristic
+        1. Zero — what happens with nothing? Zero items, zero length, zero value
+        1. One — what about exactly one? One character, one item, one result
+        1. Many — what about too many? Hundreds, thousands, or more
+        1. Boundaries — what about the edges? Just over the limit, just under, exactly at
+        1. Interfaces — what about the handoffs? Does data survive crossing from one component to another?
+        1. Exceptions — what errors can occur? Are they handled?
+        1. Simple — does the basic happy path even work?
+1. Reverse-Engineer Code You Didn't Write
