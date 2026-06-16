@@ -116,3 +116,7 @@
         1. Exceptions — what errors can occur? Are they handled?
         1. Simple — does the basic happy path even work?
 1. Reverse-Engineer Code You Didn't Write
+    1. ask AI to explain the code
+    1. questions: reason, happy path, one shot or modified
+    1. what, why, how
+1. Decide What Not to Review
