@@ -120,3 +120,8 @@
     1. questions: reason, happy path, one shot or modified
     1. what, why, how
 1. Decide What Not to Review
+    1. https://github.com/unlearndev/skills/blob/main/skills/triage/SKILL.md
+    1. High risk → deep review. Business logic, auth, data mutations, payments, user data. Full Claim → Verify → Trace. Spend 80% of your time here.
+    1. Medium risk → scan and verify. Route handlers, validation, state management. Run the First Five checklist.
+    1. Low risk → skim for red flags. Config, boilerplate, CRUD, styling. Look for hardcoded secrets and obviously wrong values.
+1. Identify Dangerous Side Effects
