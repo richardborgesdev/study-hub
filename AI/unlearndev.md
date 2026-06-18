@@ -125,3 +125,7 @@
     1. Medium risk → scan and verify. Route handlers, validation, state management. Run the First Five checklist.
     1. Low risk → skim for red flags. Config, boilerplate, CRUD, styling. Look for hardcoded secrets and obviously wrong values.
 1. Identify Dangerous Side Effects
+    1. Intentional? Should this function be doing this, or did AI sneak it in?
+    1. Idempotent? If it runs twice (retry, race condition, double-click), does it cause duplicate emails, double charges, or duplicate records?
+    1. Guarded? If the side effect fails, does the rest of the operation continue in a broken state?
+1. AI Code Security: The Five Checks That Matter
