@@ -129,3 +129,9 @@
     1. Idempotent? If it runs twice (retry, race condition, double-click), does it cause duplicate emails, double charges, or duplicate records?
     1. Guarded? If the side effect fails, does the rest of the operation continue in a broken state?
 1. AI Code Security: The Five Checks That Matter
+    1. Unsanitized user input. Data from the user goes straight into queries or templates without cleaning. This is how injection attacks happen, and AI produces it constantly.
+    1. Overly permissive auth. CORS set to , API routes with no auth, middleware that checks login but not whether the user can access this specific resource.
+    1. Hardcoded secrets. API keys and credentials sitting in the source code. AI doesn't think about secret management.
+    1. Missing rate limiting. Endpoints wide open to brute force, scraping, and abuse.
+    1. Auth ≠ authorization. Code checks who you are but not what you're allowed to do. A user can access another user's data by changing an ID in the URL.
+1. AI-Generated Tests: When Green Doesn't Mean Good
