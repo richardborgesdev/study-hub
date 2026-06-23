@@ -135,3 +135,8 @@
     1. Missing rate limiting. Endpoints wide open to brute force, scraping, and abuse.
     1. Auth ≠ authorization. Code checks who you are but not what you're allowed to do. A user can access another user's data by changing an ID in the URL.
 1. AI-Generated Tests: When Green Doesn't Mean Good
+    1. Tautological tests. Sets up a mock to return a value, then asserts that value was returned. The test is testing itself, not the code. Delete the implementation and the test still passes.
+    1. Happy-path-only. Every test uses valid, well-formed input. No edge cases, no error scenarios. Proves the code works when everything goes right — the one scenario you don't need tests for.
+    1. Implementation-coupled. Breaks when you refactor, doesn't break when the code produces wrong results. Tests how the code works instead of what it does.
+    1. Snapshot/copy-paste. Nearly identical test blocks with minor variations. Looks comprehensive, covers very little.
+1. Reviewing AI's Dependency Choices
