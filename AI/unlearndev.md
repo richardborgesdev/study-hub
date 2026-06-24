@@ -140,3 +140,8 @@
     1. Implementation-coupled. Breaks when you refactor, doesn't break when the code produces wrong results. Tests how the code works instead of what it does.
     1. Snapshot/copy-paste. Nearly identical test blocks with minor variations. Looks comprehensive, covers very little.
 1. Reviewing AI's Dependency Choices
+    1. W — Worth it? Would this take more than ~20 lines to write yourself? If not, inline it and delete the dependency.
+    1. A — Alive? Last commit? Last release? Active maintainer?
+    1. R — Right-sized? Using one function from a full utility library? Copy the function, drop the package, or use strategic imports.
+    1. M — Maintained securely? Run npm audit (or equivalent).
+1. Automate Your PR Reviews
