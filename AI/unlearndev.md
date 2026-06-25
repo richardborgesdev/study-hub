@@ -145,3 +145,7 @@
     1. R — Right-sized? Using one function from a full utility library? Copy the function, drop the package, or use strategic imports.
     1. M — Maintained securely? Run npm audit (or equivalent).
 1. Automate Your PR Reviews
+    1. github actions to run skills
+    1. code rabbit
+    1. custom workflows
+1. Turn Reviews Into Better Future Output
