@@ -149,3 +149,6 @@
     1. code rabbit
     1. custom workflows
 1. Turn Reviews Into Better Future Output
+    1. CLAUDE.md
+    1. REVIEW_GUIDE.md
+1. Close the Loop: One PR, Every Technique
