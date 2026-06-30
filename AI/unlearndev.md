@@ -152,3 +152,13 @@
     1. CLAUDE.md
     1. REVIEW_GUIDE.md
 1. Close the Loop: One PR, Every Technique
+    1. First Five to catch the obvious issues before reading any logic
+    1. Triage to know which files deserve deep attention and which to skip
+    1. Structured review with Claim → Verify → Trace to dig into the auth logic
+    1. ZOMBIES to test the boundaries
+    1. Side-effect sweep to find hidden behaviour
+    1. Security checks on the auth endpoints
+    1. Test review to see if the test suite is actually testing anything
+    1. WARM check on a dependencies
+    1. Fix the most critical issue live and review the fix
+    1. Capture knowledge in the rules file and review guide
