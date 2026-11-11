@@ -7,39 +7,47 @@
 [LinkedIn](https://www.linkedin.com/in/[USERNAME]) · [GitHub](https://github.com/richardborgesdev) · [Email](mailto:[EMAIL]) · [Portfolio]([URL])
 
 ## About
-Frontend Architect with [X]+ years of experience building web products at scale, currently leading frontend architecture, DevEx, and AI adoption across Conta Azul. I work at the intersection of code, platform, and people: I define stack standards, drive structural migrations (such as Vue 2 → Vue 3 across [N] projects), and build mechanisms that help dozens of developers ship with higher quality and speed.
+Frontend Architect with 13+ years of experience building web products at scale, now a Senior Software Engineer II at Jusbrasil working on Jus IA. Over almost 7 years at Conta Azul I grew from mid-level engineer to Frontend Architect and front lead: I led the Design System migration to Vue 3, built an AI-native frontend platform (shared microfrontends, starters, DevEx), and worked as a team multiplier, with 2,893 code reviews, the Frontend Council, and the frontend guild. I work at the intersection of code, platform, and people.
 
 A career driven by curiosity since my first typing course at age 8, with a technical degree (Tupy, 2008), a Bachelor's in Computer Science (UDESC, 2013), and a postgraduate specialization in Web Technologies (SENAC, 2018).
 
 
 ## Experience
 
-### Conta Azul | Nov 2019 - present
-SaaS platform for financial and accounting management for SMBs and accountants. I work on Conta Azul Mais (accountant-facing product) and the factoring/receivables product, while organizing the company's frontend demands: technical forum, stack evolution backlog, and career direction.
+### Jusbrasil | Nov 2026 - present
+Legal tech platform. Senior Software Engineer II on Jus IA, the AI assistant for legal professionals.
 
-#### Frontend Architect | Nov 2025 - present
-- **Vue 2 → Vue 3 migration:** Leading the migration across [N] projects / [X] developers, with an incremental rollout plan to reduce production risk
-- **Frontend starters:** Built shared starter projects centralizing authentication, observability, and stack standards — adopted by [N] teams
-- **Frontend AI instructions:** Authored AI coding instructions for frontend projects, [improving productivity / reducing rework by X%]
-- **DevEx, stack, and design system:** Governance of versions and prevention of EOL/vulnerabilities across [N] repos
-- **Frontend board:** Drove cross-company frontend architecture decisions with [N] developers across [N] teams
+### Conta Azul | Nov 2019 - Oct 2026
+SaaS platform for financial and accounting management for SMBs and accountants. Almost 7 years across banking, the accountant product (Conta Azul Mais), credit, financial backoffice, architecture, and the frontend platform.
 
-#### Specialist Frontend | Oct 2024 - Nov 2025
-- **Finance integrity / backoffice:** Built anti-fraud workflows for banking processes, [reducing X% of incidents / processing Y operations/month]
-- **Factoring (ca-pro):** Delivered the second version of the receivables financing product, [outcome: e.g., approval time reduced from X to Y]
-- **Frontend AI instructions:** First to structure AI instructions for frontend projects, standardizing tool usage across [N] developers
-- **DevEx and security:** Technology updates that [eliminated X CVEs / migrated Y EOL dependencies]
-- **Frontend board:** Aligned frontend demands across [N] product teams
+**In numbers:** 2,893 code reviews · 668 authored PRs · 2,469 commits · 1,612 Jira issues · 172 epics · 143 Confluence pages and boards
 
-#### Senior Frontend | Sep 2022 - Oct 2024
-- **ca-mais / accountability:** Dashboards, client/user management, notifications, and authentication for [X] active accountants
+**In parallel:** facilitator and maintainer of the frontend guild (2021–2025), organizer of the Frontend Council (2023–2026), and approver of critical frontend PRs (2023–2026)
+
+#### Frontend Architect | Nov 2025 - Oct 2026
+- **AI-native frontend platform:** Built the company's frontend platform with shared microfrontends (first one shipped in Jun 2026), starters centralizing authentication, observability, and stack standards, Design Engineering, and DevEx
+- **Vue 2 → Vue 3 migration:** Led the migration with an incremental rollout plan to reduce production risk; the Design System reached 100% Vue 3 in Mar 2026
+- **Frontend AI instructions:** Authored AI coding instructions for frontend projects
+- **Code review at scale:** 1,118 reviews in 2026 alone, as approver of critical frontend PRs across the ERP modules and the Design System
+- **Frontend Council:** Drove cross-company frontend architecture decisions; 391 Jira issues and ~30 epics created in 2026
+
+#### Specialist Frontend | Nov 2024 - Nov 2025
+- **Finance integrity / backoffice:** Built anti-fraud workflows for banking processes
+- **Stack upgrade:** Led the stack upgrade of all company frontends, preventing EOL and vulnerabilities
 - **Factoring (ca-pro):** Delivered the second version of the receivables financing product
-- **Frontend board and mentorship:** Frontend roadmap, action plans, and onboarding for [N] developers
-- **DevEx, stack, and design system:** Established productivity processes — [outcome: e.g., setup time reduced from X to Y]
+- **Frontend AI instructions:** First to structure AI instructions for frontend projects, standardizing tool usage across teams
+- **Code review:** 749 reviews in 2025
+
+#### Senior Frontend | Sep 2022 - Nov 2024
+- **Conta Azul Mais rewrite:** Led the rewrite of the accountant product frontend
+- **Credit squad:** Receivables financing and credit products
+- **Frontend Council and mentorship:** Organized the Frontend Council (since May 2023), frontend roadmap, action plans, and onboarding of new developers
+- **Code review:** reviews grew from 244 (2023) to 442 (2024)
 
 #### Mid-Level Frontend | Nov 2019 - Sep 2022
-- **Factoring (ca-pro):** Built the document workflow for client credit-score validation
-- **ca-mais / accountability:** Dashboards, client/user management, notifications, and authentication
+- **Banking / receivables:** Built the document workflow for client credit-score validation
+- **Conta Azul Mais:** New frontend for the accountant product, moving off the legacy AngularJS app: dashboards, client/user management, notifications, and authentication
+- **Frontend guild:** Facilitator and maintainer since Feb 2021
 
 **Tech:** Vue 2/3, React, TypeScript, Node.js, Design System, [other]
 

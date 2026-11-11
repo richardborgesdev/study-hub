@@ -7,39 +7,47 @@
 [LinkedIn](https://www.linkedin.com/in/[USUARIO]) · [GitHub](https://github.com/richardborgesdev) · [Email](mailto:[EMAIL]) · [Portfólio]([URL])
 
 ## Sobre
-Arquiteto Frontend com mais de [X] anos de experiência construindo produtos web em larga escala, hoje liderando arquitetura, DevEx e adoção de IA no desenvolvimento frontend de toda a Conta Azul. Atuo na fronteira entre código, plataforma e pessoas: defino padrões de stack, conduzo migrações estruturais (como Vue 2 → Vue 3 em [N] projetos) e crio mecanismos para que dezenas de desenvolvedores entreguem com mais qualidade e velocidade.
+Arquiteto Frontend com mais de 13 anos de experiência construindo produtos web em larga escala, hoje Software Engineer Senior II na Jusbrasil, no Jus IA. Em quase 7 anos de Conta Azul, fui de pleno a Arquiteto Frontend e front lead: liderei a migração do Design System para Vue 3, construí uma plataforma front AI-native (microfrontends compartilhados, starters, DevEx) e atuei como multiplicador do time, com 2.893 code reviews, o Conselho de Front e a guilda de front. Atuo na fronteira entre código, plataforma e pessoas.
 
 Trajetória puxada pela curiosidade desde o primeiro curso de digitação aos 8 anos, com formação técnica (Tupy, 2008), bacharelado em Ciência da Computação (UDESC, 2013) e pós em Tecnologias Web (SENAC, 2018).
 
 
 ## Experiência
 
-### Conta Azul | Nov 2019 - presente
-Plataforma SaaS de gestão financeira e contábil para PMEs e contadores. Atuo nos produtos Conta Azul Mais (gestão para contadores) e antecipação de recebíveis (factoring), além de organizar as demandas frontend da empresa: fórum técnico, backlog de evolução de stack e direcionamentos de carreira.
+### Jusbrasil | Nov 2026 - presente
+Legal tech. Software Engineer Senior II no Jus IA, o assistente de IA para profissionais do Direito.
 
-#### Arquiteto Frontend | Nov 2025 - presente
-- **Migração Vue 2 → Vue 3:** Liderando migração em [N] projetos / [X] desenvolvedores, com plano incremental para reduzir risco em produção
-- **Frontend starters:** Criação de bases comuns para os projetos frontend da empresa, centralizando autenticação, observabilidade e padrões de stack — adotado por [N] times
-- **Instruções de IA para frontend:** Definição de instruções de codificação assistida por IA, [aumentando produtividade / reduzindo retrabalho em X%]
-- **DevEx, stack e design system:** Governança de versões e prevenção de EOL/vulnerabilidades em [N] repositórios
-- **Frontend board:** Condução das decisões transversais de arquitetura frontend com [N] desenvolvedores e [N] times
+### Conta Azul | Nov 2019 - Out 2026
+Plataforma SaaS de gestão financeira e contábil para PMEs e contadores. Quase 7 anos passando por banking, produto para contadores (Conta Azul Mais), crédito, backoffice financeiro, arquitetura e plataforma front.
 
-#### Frontend Especialista | Out 2024 - Nov 2025
-- **Finance integrity / backoffice:** Implementação de fluxos antifraude em processos bancários, [reduzindo X% de incidentes / processando Y operações/mês]
-- **Factoring (ca-pro):** Entrega da segunda versão do produto de antecipação de recebíveis, [resultado: ex. tempo de aprovação reduzido de X para Y]
-- **Instruções de IA para frontend:** Primeiro a estruturar instruções de IA para projetos frontend, padronizando o uso da ferramenta entre [N] desenvolvedores
-- **DevEx e segurança:** Atualizações tecnológicas que [eliminaram X CVEs / migraram Y dependências EOL]
-- **Frontend board:** Alinhamento das demandas frontend entre [N] times de produto
+**Em números:** 2.893 code reviews · 668 PRs autorados · 2.469 commits · 1.612 issues no Jira · 172 épicos · 143 páginas e quadros no Confluence
 
-#### Frontend Sênior | Set 2022 - Out 2024
-- **ca-mais / accountability:** Dashboards, gestão de clientes/usuários, notificações e autenticação para [X] contadores ativos
+**Em paralelo:** facilitador e mantenedor da guilda de front (2021–2025), organizador do Conselho de Front (2023–2026) e aprovador de PRs críticos de front (2023–2026)
+
+#### Arquiteto Frontend | Nov 2025 - Out 2026
+- **Plataforma front AI-native:** Construção da plataforma front da empresa com microfrontends compartilhados (o primeiro entregue em jun/2026), starters centralizando autenticação, observabilidade e padrões de stack, Design Engineering e DevEx
+- **Migração Vue 2 → Vue 3:** Liderança da migração com plano incremental para reduzir risco em produção; Design System 100% em Vue 3 em mar/2026
+- **Instruções de IA para frontend:** Definição de instruções de codificação assistida por IA para os projetos frontend
+- **Code review em escala:** 1.118 reviews só em 2026, como aprovador de PRs críticos de front nos módulos do ERP e no Design System
+- **Conselho de Front:** Condução das decisões transversais de arquitetura frontend; 391 issues e ~30 épicos criados em 2026
+
+#### Frontend Especialista | Nov 2024 - Nov 2025
+- **Finance integrity / backoffice:** Implementação de fluxos antifraude em processos bancários
+- **Upgrade de stack:** Liderança do upgrade de stack de todos os fronts da empresa, prevenindo EOL e vulnerabilidades
 - **Factoring (ca-pro):** Entrega da segunda versão do produto de antecipação de recebíveis
-- **Frontend board e mentoria:** Roadmap frontend, planos de ação e onboarding de [N] desenvolvedores
-- **DevEx, stack e design system:** Estabelecimento de processos de produtividade — [resultado: ex. tempo de setup reduzido de X para Y]
+- **Instruções de IA para frontend:** Primeiro a estruturar instruções de IA para projetos frontend, padronizando o uso da ferramenta entre os times
+- **Code review:** 749 reviews em 2025
+
+#### Frontend Sênior | Set 2022 - Nov 2024
+- **Reescrita do Conta Azul Mais:** Liderança da reescrita do front do produto para contadores
+- **Squad de Crédito:** Produtos de antecipação de recebíveis e crédito
+- **Conselho de Front e mentoria:** Organização do Conselho de Front (desde mai/2023), roadmap frontend, planos de ação e onboarding de novos desenvolvedores
+- **Code review:** de 244 reviews (2023) para 442 (2024)
 
 #### Frontend Pleno | Nov 2019 - Set 2022
-- **Factoring (ca-pro):** Desenvolvimento do fluxo de documentos para validação de score de crédito de clientes
-- **ca-mais / accountability:** Dashboards, gestão de clientes/usuários, notificações e autenticação
+- **Banking / antecipação:** Desenvolvimento do fluxo de documentos para validação de score de crédito de clientes
+- **Conta Azul Mais:** Novo front do produto para contadores e saída do legado AngularJS: dashboards, gestão de clientes/usuários, notificações e autenticação
+- **Guilda de front:** Facilitador e mantenedor desde fev/2021
 
 **Tecnologias:** Vue 2/3, React, TypeScript, Node.js, Design System, [outras]
 
